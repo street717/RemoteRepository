@@ -11,6 +11,7 @@
 <%
 String data1 = "this is data1";
 pageContext.setAttribute("data2", data1);
+out.print("hahaha");
 %>
 <h3>data1: <%=data1%></h3>
 <h3>data1: ${data1}</h3>
